@@ -1,0 +1,421 @@
+
+body
+{
+    font-family: sans-serif;
+}
+
+
+
+
+
+.design
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self:center;
+    background-color:rgba(0, 0, 200, 0.7);
+    color: white;
+    height: 50px;
+}
+
+
+
+
+.b1
+{
+    font-size: 11px;
+    font-weight: 400;
+    width: 75px;
+    height: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+i{
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    
+}
+
+
+
+.paragraf1{
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.menu-bar-1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+li
+{
+    padding: 5px;
+    margin: 10px;
+    font-size: small;
+    font-weight: 700;
+    
+}
+
+#bar
+{
+    height: 70px;
+}
+
+
+.logo
+{
+    width: 190px;
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
+
+
+.active,.nav-link:hover
+{
+    background-color:rgba(0, 0, 200, 0.7);
+    border-radius: 25px;
+   
+    
+
+}
+
+
+
+
+.no
+{
+    visibility: hidden;
+}
+
+
+
+
+.line
+{
+    text-align: center;
+    background-color:rgba(0, 0, 200, 0.6);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right:100px ;
+    padding-top: 1px;
+    padding-bottom:1px;
+    height: 35px;
+}
+
+
+form
+{
+    background-color: lavender ;
+    opacity:0.7;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 80px;
+    
+
+}
+ 
+
+span
+{
+    color: rgb(0, 0, 180);
+}
+
+
+
+.top
+{
+    color: green;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+
+
+
+.para
+{
+ font-size: 15px;
+ text-align: justify;
+ 
+}
+
+.media
+{
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.num
+{
+    font-size: 60px;
+    
+}
+.mounth
+{
+    color:rgb(0, 255, 0);
+    font-size: x-large;
+    font-weight: bold;
+}
+.icon
+{
+    width: 50px;
+}
+
+.back
+{
+    
+    color: green;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+.next
+{
+    background-color: lavender ;
+    
+   
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    background-color: lavender ;
+    padding: 40px;
+    
+
+}
+
+.grid-container > div 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    box-shadow:2px  2px wheat;
+}
+
+
+.col3
+{
+    padding-top: 55px;
+    padding-bottom:40px ;
+   
+}
+
+.col4
+{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.g
+{
+   margin-left: 40px;
+}
+
+.s
+{
+    margin-right: 40px;
+}
+
+
+.mission
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h4
+{
+
+color: royalblue;
+border-bottom: 2px solid green;
+
+
+}
+
+
+.good
+{
+margin-right: 200px;
+
+}
+
+
+
+.mi
+{
+    margin-left: 60px;
+    
+}
+
+
+
+.mission2
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    background-color:white ;
+    padding: 60px;
+    
+}
+
+.mission2 > div
+{
+    
+    text-align: left;
+    
+    
+}
+
+
+.left-rn
+{
+    padding-left: 10px;
+    text-align: left;
+    
+}
+
+
+.left-gn
+{
+    
+    padding: 20px;
+    padding-right: 120px;
+    background-color: lavender ;
+}
+
+.round
+{
+    background-color: white;
+}
+
+
+.oval
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+
+.oval1
+{
+    width: 100%;
+    
+    
+}
+
+.oval3
+{
+    margin: 1px;
+    width: 16%;
+    overflow: hidden;
+    margin-bottom: 200px;
+    margin-top: 40px;
+}
+
+.oval1:hover
+{
+    transform: scale(2,2);
+    transition: 1s ;
+}
+.end
+{
+    background-color: royalblue;
+    color: white;
+    padding-left: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    margin-bottom: 0%;
+}
+
+
+
+
+.last-bar-1
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 39, 46);
+    color:lightgray;
+    padding: 60px;
+    
+}
+
+
+.last-bar-2
+{
+    margin-right:10px ;
+    
+}
+
+
+#pic
+{
+    color: green;
+}
+
+
+.smil
+{
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.under
+{
+    color: white;
+    border-bottom: 2px solid green;
+    
+}
+
+#socialmedia
+{
+    background-color: royalblue;
+    border-radius: 15px;
+    
+    
+}
