@@ -58,62 +58,40 @@ i{
 
 
 
-
-.menu-bar-1
+.navbar-brand
 {
-    display: flex;
-    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 320px !important;
 }
-
 
 
 li
 {
-    padding: 5px;
-    margin: 10px;
+    padding: 2px;
+    margin: 3px;
     font-size: small;
     font-weight: 700;
     
 }
-
-#bar
-{
-    height: 70px;
-}
-
-
-.logo
-{
-    width: 190px;
-    margin-top: 15px;
-    
-}
-
-
-
-
-
-
 
 
 .active,.nav-link:hover
 {
     background-color:rgba(0, 0, 200, 0.7);
     border-radius: 25px;
-   
-    
+    color: white !important;
 
 }
 
 
-
-
-.no
+.dropdown-item:hover
 {
-    visibility: hidden;
+    background-color:rgba(0, 0, 200, 0.7) !important;
+    color: white !important;
 }
 
-  
+
+
 
 /* line */
 
@@ -452,4 +430,30 @@ padding: 5px;
     padding-bottom: 10px;
     font-size: small;
     margin-bottom: 0%;
+}
+
+
+/* jo to top icon */
+
+
+
+.gototop
+{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    text-decoration: none;
+    background-color: rgba(12, 1, 1, 0.993);
+    text-align: center;
+    line-height: 50px;
+    /* color: white; */
+    font-size: 30px;
+}
+
+
+html
+{
+    scroll-behavior: smooth;
 }
