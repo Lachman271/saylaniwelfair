@@ -56,6 +56,10 @@ i{
 /* navigation bar design */
 
 
+.dropdown:hover>.dropdown-menu
+{
+    display: block;
+}
 
 
 .navbar-brand
@@ -90,7 +94,11 @@ li
     color: white !important;
 }
 
-
+.dropdown-item
+{
+    opacity: 0.7;
+    font-size: small;
+}
 
 
 /* line */
@@ -118,7 +126,7 @@ li
 
 form
 {
-    background-color: lavender ;
+    /* background-color: lavender ; */
     opacity:0.7;
     text-align: center;
     padding-left: 50px;
@@ -168,7 +176,12 @@ span
     padding-bottom: 50px;
     flex-wrap: wrap;
     
-    
+}
+
+.second-part
+{
+    margin-bottom:25px;
+    margin-top: 25px;
 }
 
 .num
@@ -205,7 +218,7 @@ span
 
 .next
 {
-    background-color: lavender ;
+    /* background-color: lavender ; */
     
    
 }
@@ -216,7 +229,7 @@ span
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(100px,400px));
     grid-gap: 30px;
-    background-color: lavender ;
+    /* background-color: lavender ; */
     padding: 40px;
     
 
@@ -228,7 +241,8 @@ span
 {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    box-shadow:2px  2px wheat;
+    /* box-shadow:2px  2px wheat; */
+    box-shadow: 1px 1px 10px gray;
 }
 
 
