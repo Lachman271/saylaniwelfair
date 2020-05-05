@@ -114,11 +114,51 @@ nav div ul li
 {
     background-color:rgba(0, 0, 200, 0.6);
     margin-top: 15px;
-    margin-left: 50px;
-    margin-right:50px ;
+    margin-left: 80px;
+    margin-right:80px ;
     margin-bottom: 15px;
 
 }
+
+@media only screen and (max-width:1000px)
+{
+    .line
+{
+    background-color:rgba(0, 0, 200, 0.6);
+    margin-top: 15px;
+    margin-left: 50px !important;
+    margin-right:50px !important;
+    margin-bottom: 15px;
+
+}
+}
+
+@media only screen and (max-width:800px)
+{
+    .line
+{
+    background-color:rgba(0, 0, 200, 0.6);
+    margin-top: 15px;
+    margin-left: 10px !important;
+    margin-right:10px !important;
+    margin-bottom: 15px;
+
+}
+}
+
+@media only screen and (max-width:600px)
+{
+    .line
+{
+    background-color:rgba(0, 0, 200, 0.6);
+    margin-top: 15px;
+    margin-left: 0px !important;
+    margin-right:0px !important;
+    margin-bottom: 15px;
+
+}
+}
+
 
 .line-color
 {
@@ -133,11 +173,48 @@ form
 {
     opacity:0.7;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
     padding-bottom: 80px;
     
 
+}
+
+
+@media only screen and (max-width:1000px)
+{
+    form
+    {
+        opacity:0.7;
+    text-align: center;
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+    form
+    {
+        opacity:0.7;
+    text-align: center;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width:600px)
+{
+    form
+    {
+        opacity:0.7;
+    text-align: center;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 80px;
+    }
 }
  
 
@@ -390,6 +467,8 @@ padding: 5px;
     background-color: rgb(37, 39, 46);
     color:lightgray;
     padding: 60px;
+    justify-content: center;
+    /* margin-right:10px ; */
     
 }
 
@@ -410,8 +489,8 @@ padding: 5px;
 .smil
 {
     font-size: 15px;
-    margin-left: 60px;
-    margin-right: 30px;
+    /* margin-left: 60px; */
+    /* margin-right: 30px; */
 }
 
 .under
@@ -424,7 +503,9 @@ padding: 5px;
 #socialmedia
 {
     background-color: royalblue;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: small;
+    padding: 5px;
     
     
 }
@@ -436,7 +517,7 @@ padding: 5px;
 {
     background-color: royalblue;
     color: white;
-    padding-left: 130px;
+    padding-left: 210px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: small;
@@ -444,7 +525,23 @@ padding: 5px;
 }
 
 
-/* jo to top icon */
+
+@media only screen and (max-width:800px)
+{
+    .end
+    {
+        background-color: royalblue;
+    color: white;
+    padding-left: 70px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-small !important;
+    margin-bottom: 0%;
+    }
+}
+
+
+/* go to top icon */
 
 
 
