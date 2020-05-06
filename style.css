@@ -291,6 +291,7 @@ span
 .grid-container 
 {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit,minmax(100px,400px));
     grid-gap: 30px;
     padding: 40px;
@@ -479,6 +480,7 @@ padding: 5px;
 .last-bar-2
 {
     margin-right:10px ;
+    margin-bottom: 20px;
     
 }
 
@@ -499,6 +501,11 @@ padding: 5px;
     color: white;
     border-bottom: 2px solid green;
     
+}
+
+.color2
+{
+    color: white;
 }
 
 #socialmedia
